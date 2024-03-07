@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'DOCKERHUB_CREDENTIALS_ID'
-        IMAGE_NAME = 'aaronwang0509/java'
+        IMAGE_NAME = 'qiushiwang0702/java'
         MAJOR_VERSION = '7'
         MINOR_VERSION = '30'
     }
