@@ -7,7 +7,7 @@ pipeline {
         MINOR_VERSION = '30'
     }
     stages {
-        stage('Build and Push Java 11 Image') {
+        stage('Build and Push java-11 Image') {
             steps {
                 script {
                     def imageName = "${env.IMAGE_NAME}-11"
@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-        stage('Build and Push Java 17 Image') {
+        stage('Build and Push java-17 Image') {
             steps {
                 script {
                     def imageName = "${env.IMAGE_NAME}-17"
